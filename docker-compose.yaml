@@ -42,7 +42,7 @@ services:
 
   # 3. Web 서비스 (Nginx)
   service-board-nginx:
-    image: dkxm0908/nginx-proxy:v1
+    image: dkxm0908/nginx-proxy:v2
     # build:
     #   context: ./nginx
     #   dockerfile: Dockerfile
